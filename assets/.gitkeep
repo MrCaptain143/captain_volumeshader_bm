@@ -1,5 +1,4 @@
-
-```volume shader
+volume shader
 float kernal(vec3 ver){
    float x,y,z;
    x = cos(1.0 / (ver.x*ver.x + 0.06));
@@ -41,4 +40,4 @@ float b,c,d,e;
     <li><b>Snapdragon vs. Dimensity:</b> <Link href="/comparison-8-elite-dimensity-9400" className="underline hover:text-blue-600">Snapdragon 8 Elite VS Dimensity 9400 benchmark comparison</Link></li>
   </ul>
 </section>
-```
+
