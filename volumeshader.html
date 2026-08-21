@@ -67,12 +67,12 @@
     var ceny = 0.0;
     var cenz = 0.0;
     var KERNEL = "float kernal(vec3 ver){\n" +
-        "   float x,y,z;\n" +
-        "   x = cos(1.0 / (ver.x*ver.x + 0.06));\n" +
-        "   y = cos(1.0 / (ver.y*ver.y + 0.06));\n" +
-        "   z = cos(1.0 / (ver.z*ver.z + 0.06));\n" +
-        "   return -x-y-z-1.2;\n" +
-        "}";
+"   float x,y,z;\n" +
+"   x = cos(1.0 / (ver.x*ver.x + 0.04));\n" +
+"   y = cos(1.0 / (ver.y*ver.y + 0.04));\n" +
+"   z = cos(1.0 / (ver.z*ver.z + 0.04));\n" +
+"   return -x-y-z-1.2;\n" +
+"}";
 
     var vertshade;
     var fragshader;
